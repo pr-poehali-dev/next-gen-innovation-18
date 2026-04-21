@@ -4,35 +4,35 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
+    title: "Квартира на Ленинском",
+    category: "Машинная штукатурка",
+    location: "Жилая квартира, 85 м²",
     year: "2024",
-    image: "/images/hously-1.png",
+    image: "https://cdn.poehali.dev/projects/aa7a4249-4a1f-4ebe-b7f4-2d6534bf6265/files/c36eb2c5-c876-4f0f-acc7-cb09a34e5b52.jpg",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
-    year: "2023",
-    image: "/images/hously-2.png",
+    title: "Офис в БЦ Аврора",
+    category: "Машинная штукатурка + шпаклёвка",
+    location: "Коммерческое помещение, 320 м²",
+    year: "2024",
+    image: "https://cdn.poehali.dev/projects/aa7a4249-4a1f-4ebe-b7f4-2d6534bf6265/files/8ea57c75-071b-4d14-b722-3709751ddca3.jpg",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
+    title: "Таунхаус в Подмосковье",
+    category: "Ручная штукатурка",
+    location: "Загородный дом, 180 м²",
     year: "2023",
-    image: "/images/hously-3.png",
+    image: "https://cdn.poehali.dev/projects/aa7a4249-4a1f-4ebe-b7f4-2d6534bf6265/files/025f418c-92ae-4287-967b-8e48c51dad19.jpg",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
-    year: "2024",
-    image: "/images/hously-4.png",
+    title: "Новостройка на Садовой",
+    category: "Шпаклёвка под покраску",
+    location: "Жилой дом, 12 квартир",
+    year: "2023",
+    image: "https://cdn.poehali.dev/projects/aa7a4249-4a1f-4ebe-b7f4-2d6534bf6265/files/68133c30-1ffe-4231-871e-3f7686340c7d.jpg",
   },
 ]
 
@@ -68,14 +68,14 @@ export function Projects() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Выполненные объекты</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши работы</h2>
           </div>
           <a
             href="#"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group"
           >
-            Смотреть все проекты
+            Смотреть все работы
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>

@@ -1,30 +1,30 @@
 import { useEffect, useRef, useState } from "react"
-import { Home, Building, Armchair, Trees } from "lucide-react"
+import { Home, Building2, Layers, CheckCircle } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
 
 const expertiseAreas = [
   {
-    title: "Жилая архитектура",
-    description: "Создаем дома, которые сочетают красоту с комфортом, где каждое пространство служит и форме, и функции.",
+    title: "Машинная штукатурка",
+    description: "Наносим штукатурку механизированным способом — быстро, равномерно и экономично. Идеально для больших площадей: квартиры, офисы, новостройки.",
     icon: Home,
   },
   {
-    title: "Коммерческие объекты",
+    title: "Ручная штукатурка",
     description:
-      "Проектируем рабочие пространства, которые вдохновляют на продуктивность и отражают ценности передовых организаций.",
-    icon: Building,
+      "Для сложных поверхностей, арок, откосов и нестандартной геометрии. Тщательная ручная работа с соблюдением всех углов и плоскостей.",
+    icon: Building2,
   },
   {
-    title: "Дизайн интерьеров",
+    title: "Шпаклёвка под обои и краску",
     description:
-      "Создаем интерьеры, которые гармонируют с архитектурной оболочкой, формируя целостный пространственный опыт.",
-    icon: Armchair,
+      "Финишная шпаклёвка для идеально гладкой поверхности. Готовим стены под любой вид отделки: обои, декоративная штукатурка, покраска.",
+    icon: Layers,
   },
   {
-    title: "Градостроительство",
+    title: "Откосы и примыкания",
     description:
-      "Формируем сообщества через продуманную интеграцию общественных пространств, зданий и природных элементов.",
-    icon: Trees,
+      "Штукатурка оконных и дверных откосов, заделка швов и стыков. Аккуратные углы, чёткие линии — всё под ключ.",
+    icon: CheckCircle,
   },
 ]
 
@@ -59,12 +59,12 @@ export function Expertise() {
         <div className="max-w-3xl mb-20">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши услуги</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Экспертиза</HighlightedText>, отточенная
+            <HighlightedText>Услуги</HighlightedText>, которые
             <br />
-            практикой
+            мы выполняем
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Каждый проект опирается на десятилетия совокупного опыта, создавая архитектуру, которая одновременно инновационна и вневременна.
+            Занимаемся только штукатурными и шпаклёвочными работами — и делаем это лучше, чем те, кто берётся за всё подряд.
           </p>
         </div>
 

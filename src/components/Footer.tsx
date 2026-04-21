@@ -9,17 +9,17 @@ export function Footer() {
               <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Создаем пространства для жизни. Архитектурный опыт, где форма, свет и намерение встречаются.
+              Штукатурные и шпаклёвочные работы под ключ. Работаем с квартирами, офисами и новостройками. Качество, которое видно с первого взгляда.
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="text-sm font-medium mb-4">Студия</h4>
+            <h4 className="text-sm font-medium mb-4">Навигация</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a href="#projects" className="hover:text-foreground transition-colors">
-                  Проекты
+                  Работы
                 </a>
               </li>
               <li>
@@ -45,8 +45,8 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:hello@prostranstvo.ru" className="hover:text-foreground transition-colors">
-                  hello@prostranstvo.ru
+                <a href="mailto:hello@shtukatur.ru" className="hover:text-foreground transition-colors">
+                  hello@shtukatur.ru
                 </a>
               </li>
               <li>
@@ -70,7 +70,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Пространство. Все права защищены.</p>
+          <p>© 2025 Штукатур. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
